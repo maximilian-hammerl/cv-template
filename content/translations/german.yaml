@@ -17,7 +17,10 @@ language:
       proficiency: Fließend (C1)
 profile:
   title: Profil
-  text: Erfahrener Wissenshüter mit jahrtausendealter Erfahrung in der Bewahrung antiker Schriften, arkaner Kartographie und interreichlicher Diplomatie. Leidenschaftlich engagiert für die Wahrung der Integrität historischer Aufzeichnungen über alle Zeitalter hinweg.
+  text: Erfahrener Wissenshüter mit jahrtausendealter Erfahrung in der Bewahrung
+    antiker Schriften, arkaner Kartographie und interreichlicher Diplomatie.
+    Leidenschaftlich engagiert für die Wahrung der Integrität historischer
+    Aufzeichnungen über alle Zeitalter hinweg.
 workExperience:
   title: Berufserfahrung
   companies:
@@ -29,7 +32,8 @@ workExperience:
           to: 02/2021
           title: Wissenshüter
       tasks:
-        - Katalogisierung und Bewahrung von über 3.000 antiken Schriftrollen zur Geschichte der Älteren Tage.
+        - Katalogisierung und Bewahrung von über 3.000 antiken Schriftrollen zur
+          Geschichte der Älteren Tage.
       technologies:
         - Elfentinte
 education:

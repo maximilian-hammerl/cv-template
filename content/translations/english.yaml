@@ -17,7 +17,9 @@ language:
       proficiency: Proficient (C1)
 profile:
   title: Profile
-  text: Seasoned lore keeper with millennia of experience in ancient script preservation, arcane cartography, and inter-realm diplomacy. Passionate about maintaining the integrity of historical records across the ages.
+  text: Seasoned lore keeper with millennia of experience in ancient script
+    preservation, arcane cartography, and inter-realm diplomacy. Passionate
+    about maintaining the integrity of historical records across the ages.
 workExperience:
   title: Work Experience
   companies:
@@ -29,7 +31,8 @@ workExperience:
           to: 02/2021
           title: Lore Keeper
       tasks:
-        - Catalogued and preserved over 3,000 ancient scrolls detailing the history of the Elder Days.
+        - Catalogued and preserved over 3,000 ancient scrolls detailing the
+          history of the Elder Days.
       technologies:
         - Elvish Ink
 education:
