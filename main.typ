@@ -190,7 +190,7 @@
         ]
       ]
 
-      #if "technologies" in data [
+      #if "technologies" in company [
         #text(weight: "bold")[
           #data.technologies:
         ]
