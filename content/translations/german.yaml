@@ -36,6 +36,24 @@ workExperience:
           Geschichte der Älteren Tage.
       technologies:
         - Elfentinte
+    - name: Bruchtal Diplomatisches Korps
+      positions:
+        - from: 04/2015
+          to: 05/2018
+          title: Diplomatischer Gesandter
+      tasks:
+        - Vermittlung von Vertragsverhandlungen zwischen den Elbenkönigreichen und
+          den Freien Völkern Mittelerdes.
+        - Übersetzung und Überbringung offizieller Korrespondenz über die Nebelberge.
+    - name: Gondor Königliches Kartographieamt
+      positions:
+        - from: 01/2010
+          to: 03/2015
+          title: Junior-Kartograph
+      technologies:
+        - Mithril-Kompass
+        - Palantír-Bildgebung
+        - Númenórisches Pergament
 education:
   title: Ausbildung
   steps:

@@ -35,6 +35,24 @@ workExperience:
           history of the Elder Days.
       technologies:
         - Elvish Ink
+    - name: Rivendell Diplomatic Corps
+      positions:
+        - from: 04/2015
+          to: 05/2018
+          title: Diplomatic Envoy
+      tasks:
+        - Facilitated treaty negotiations between the Elven kingdoms and the Free
+          Peoples of Middle-earth.
+        - Translated and delivered official correspondence across the Misty Mountains.
+    - name: Gondor Royal Cartography Office
+      positions:
+        - from: 01/2010
+          to: 03/2015
+          title: Junior Cartographer
+      technologies:
+        - Mithril Compass
+        - Palantír Imaging
+        - Númenórean Parchment
 education:
   title: Education
   steps:
