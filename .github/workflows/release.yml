@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Setup Typst
-        uses: typst-community/setup-typst@v4
+        uses: typst-community/setup-typst@v5
 
       - name: Read Typst version
         id: typst_version
