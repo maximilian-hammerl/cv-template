@@ -125,5 +125,9 @@ properties:
               type: string
             grading:
               type: string
+            projects:
+              type: array
+              items:
+                type: string
   easterEgg:
     type: string

@@ -181,7 +181,7 @@
         )).flatten(),
       )
 
-      #if "tasks" in data [
+      #if "tasks" in company [
         #text(weight: "bold")[
           #data.tasks:
         ]
@@ -202,17 +202,26 @@
 
     #section-title(data.education.title)
 
-    #grid(
-      columns: (25%, 75%),
-      gutter: 10pt,
-      ..data.education.steps.map(step => (
+    #for step in data.education.steps [
+      #grid(
+        columns: (25%, 75%),
+        gutter: 10pt,
         step.from + [ \- ] + step.to,
         text(weight: "bold")[#step.title]
         + [ \- ]
         + step.institution
         + [ \ ]
         + text(size: 8pt)[#step.grading],
-      )).flatten(),
-    )
+      )
+
+      #if "projects" in step [
+        #text(weight: "bold")[
+          #data.tasks:
+        ]
+        #for project in step.projects [
+          - #project
+        ]
+      ]
+    ]
   ]
 )
