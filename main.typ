@@ -122,6 +122,16 @@
   ],
 
   [
+    #if "personalDetails" in data [
+      #section-title(data.personalDetails.title)
+      #for element in data.personalDetails.data [
+        *#element.name* \
+        #element.value
+        #v(4pt)
+      ]
+      #v(4pt)
+    ]
+
     #section-title(data.social.title)
 
     *LinkedIn* \

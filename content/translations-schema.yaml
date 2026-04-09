@@ -29,6 +29,24 @@ properties:
     properties:
       title:
         type: string
+  personalDetails:
+    type: object
+    required: [ title, data ]
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+      data:
+        type: array
+        items:
+          type: object
+          required: [ name, value ]
+          additionalProperties: false
+          properties:
+            name:
+              type: string
+            value:
+              type: string
   contact:
     type: object
     required: [title, email, phone]
