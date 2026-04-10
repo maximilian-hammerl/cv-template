@@ -93,13 +93,13 @@
   columns: (22%, 76%),
   gutter: 2%,
   [
-    #if "profilePicturePlaceholder" not in general or not general.profilePicturePlaceholder {
+    #if "profilePictureFileName" in general {
       rect(
         inset: 0pt,
         stroke: 2pt + primaryColor,
       )[
         #image(
-          "content/images/profile-picture.jpg",
+          "content/images/" + general.profilePictureFileName,
           width: 90%,
         )
       ]
