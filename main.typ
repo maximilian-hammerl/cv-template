@@ -272,6 +272,10 @@
       )
 
       #if "projects" in step [
+        #if "grading" in step [
+          #v(-12pt)
+        ]
+
         *#labels.projects:*
         #for project in step.projects [
           - *#project.title*#if "link" in project [#footnote(link(project.link))]#if "description" in project [\ #project.description]
