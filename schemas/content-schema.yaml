@@ -68,6 +68,8 @@ properties:
           type: array
           items:
             type: string
+        pagebreak:
+          type: boolean
   education:
     type: array
     items:
@@ -98,3 +100,5 @@ properties:
                 type: string
               link:
                 type: string
+        pagebreak:
+          type: boolean
