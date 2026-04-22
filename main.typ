@@ -3,6 +3,17 @@
 #let profile = yaml("input/profile.yaml")
 #let release-version = sys.inputs.at("releaseVersion", default: "dev")
 
+#set document(
+  title: [
+    #if "jobTitle" in profile {
+      profile.fullName + " - " + profile.jobTitle
+    } else {
+      profile.fullName
+    }
+  ],
+  author: profile.fullName,
+)
+
 #set page(
   paper: "a4",
   margin: 1.2cm,
